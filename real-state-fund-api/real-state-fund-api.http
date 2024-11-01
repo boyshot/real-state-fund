@@ -1,0 +1,6 @@
+@real_state_fund_api_HostAddress = http://localhost:5098
+
+GET {{real_state_fund_api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
