@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <RootNamespace>real_state_fund_service</RootNamespace>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\real-state-fund-iservice\real-state-fund-iservice.csproj" />
+      <ProjectReference Include="..\real-state-fund-model\real-state-fund-model.csproj" />
+    </ItemGroup>
+
+</Project>

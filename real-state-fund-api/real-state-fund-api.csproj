@@ -19,4 +19,9 @@
       </Content>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\real-state-fund-model\real-state-fund-model.csproj" />
+      <ProjectReference Include="..\real-state-fund-service\real-state-fund-service.csproj" />
+    </ItemGroup>
+
 </Project>

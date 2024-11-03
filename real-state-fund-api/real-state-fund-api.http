@@ -1,6 +1,21 @@
 @real_state_fund_api_HostAddress = http://localhost:5098
 
-GET {{real_state_fund_api_HostAddress}}/weatherforecast/
+### Get all state fund
+
+GET {{real_state_fund_api_HostAddress}}/api/fund
 Accept: application/json
 
-###
+### Send POST request with json body
+
+POST {{real_state_fund_api_HostAddress}}/api/fund
+Content-Type: application/json
+
+{
+  "name": "Bradesco Carteira Imobiliária Ativa",
+  "code": "BCIA11",
+  "cnpj": "20.216.935/0001-17"
+}
+
+
+
+
